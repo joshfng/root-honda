@@ -7,7 +7,7 @@ mount -o remount,rw,sync /system
 echo "Copying files"
 cp /data/local/tmp/rootme/su /system/xbin/
 chown 0:0 /system/xbin/su
-chmod 6777 /system/xbin/su
+chmod 6755 /system/xbin/su
 
 cp /data/local/tmp/rootme/SuperSU-v2.78.apk /system/app/
 
